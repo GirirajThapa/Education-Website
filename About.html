@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="|">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univarsity Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2bc9bdc654.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="About.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="Course.html">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="Blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+<!-- -------about us content------ -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest Univarsity</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae voluptatum possimus atque blanditiis. Exercitationem, officiis? Numquam obcaecati non consequuntur inventore laboriosam neque officiis explicabo.</p>
+               <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/about.jpg">
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- -------Footer---- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Officia officiis eum<br> cupiditate ratione tenetur.
+            Voluptatibus, deserunt nihil!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+     
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+    </script>
+</body>
+
+</html>
